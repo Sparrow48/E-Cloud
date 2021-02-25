@@ -40,6 +40,95 @@ img{
     width: 100%;
 }
 
+.text-center {
+    text-align: center;
+}
+
+/* Margin */
+
+.my-1{
+    margin: 1em 0;
+}
+
+.my-2{
+    margin: 1.5em 0;
+}
+
+.my-3{
+    margin: 2em 0;
+}
+
+.my-4{
+    margin: 3em 0;
+}
+
+.my-5{
+    margin: 4em 0;
+}
+
+.m-1{
+    margin: 1em;
+}
+
+.m-2{
+    margin: 1.5em;
+}
+
+.m-3{
+    margin: 2em;
+}
+
+.m-4{
+    margin: 3em;
+}
+
+.m-5{
+    margin: 4em;
+}
+/* padding */
+
+.py-1{
+    padding: 1em 0;
+}
+
+.py-2{
+    padding: 1.5em 0;
+}
+
+.py-3{
+    padding: 2em 0;
+}
+
+.py-4{
+    padding: 3em 0;
+}
+
+.py-5{
+    padding: 4em 0;
+}
+
+.p-1{
+    padding: 1em;
+}
+
+.p-2{
+    padding: 1.5em;
+}
+
+.p-3{
+    padding: 2em;
+}
+
+.p-4{
+    padding: 3em;
+}
+
+.p-5{
+    padding: 4em;
+}
+
+
+
 /* Navbar */
 
 .navbar ul{
@@ -182,4 +271,34 @@ img{
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
 
+}
+
+/* Stats */
+
+.stats{
+    padding-top: 100px;
+
+}
+
+.grid-3{
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.text-secondary{
+    text-align: center;
+}
+
+.stats-heading{
+    max-width: 500px;
+    margin: auto;
+}
+
+.stats .grid h3{
+    font-size: 35px;
+}
+
+.stats .grid p{
+    font-size: 20px;
+    font-weight: bold;
 }
